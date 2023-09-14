@@ -32,7 +32,7 @@ function templateString(templateString: string, ...defaultValues: string[]) {
 //
 export const companyName = templateString(
   "{{ tmplr.company_name }}",
-  "Acme Co."
+  "Solo.io"
 );
 document.title = companyName + " Portal";
 
